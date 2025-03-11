@@ -1,6 +1,8 @@
 *::after, *::before {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,57 +17,117 @@ header {
 
 main {
     display: flex;
-    flex-direction: row;
-    height: 50%;
+    margin-top: 10px;
+    height: 90%;
+    
+}
+
+aside {
+    width: 20%;
+    height: 880px;
+    margin-left: 200px;
+    text-align: center;
+    background: blueviolet;
+    border: 1px solid red;
+}
+aside img {
+    margin-top: 10px;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+aside p a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* section */
+section {
+    width: 40%;
+    height: 880px;
+    margin-left: 10px;
+    background: yellow;
+}
+
+section h2 {
+    color: blue;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+section h3 {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+section p{
+    margin-left: 10px;
+}
+
+.competence {
     border: 2px solid red;
 }
 
-.porfil-cv {
+.exp-professionalles {
+    border: 2px solid green;
+}
+
+.formation {
+    border: 2px solid magenta;
+    height: 200px;
+}
+
+form {
+    border: 2px solid mediumaquamarine;
+    height: 8%;
+}
+
+form label {
     display: flex;
     flex-direction: column;
-    margin-left: 400px;
-    margin-right: 100px;
-    border: 3px solid yellow;
-    width: 45%;
-    height: 90%;
-}
-
-.porfil-cv img{
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-}
-
-.content-flex {
+    width: 95%;
+    height: 15px;
     margin-left: 10px;
-    margin-right: 300px;
-    width: 55%;
-    height: 80%;
-    border: 3px solid magenta;
 }
-.content-flex h2 {
-    color: blue; 
+
+form input {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 15px;
+    margin-left: 10px;
+}
+
+form textarea {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 40px;
+    margin-left: 10px;
 }
 
 form button{
-    width: 100%;
-    margin-top: 5px;
+    width: 96%;
     background-color: blue;
     margin-bottom: 10px;
+    margin-left: 10px;
     color: white;
-    font-size: px;
-
+    font-size: 15px;
+    margin-bottom: 5px;
 }
 
 /* footer */
 footer {
+    margin-top: 5px;
     display: flex;
-    flex-direction: row;
-    background-color: blue;
+    justify-content: center;
+    background: blue;
     color: white;
-    align-items: center;
+    padding: 10px;
+    text-align: center;
 }
+
 
