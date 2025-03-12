@@ -17,50 +17,46 @@ header {
 
 main {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 500px;
     margin-top: 10px;
     height: 90%;
+    background-color: gainsboro;
     
 }
 
 aside {
-    width: 20%;
-    height: 880px;
-    margin-left: 200px;
-    text-align: center;
-    background: blueviolet;
-    border: 1px solid red;
-}
-aside img {
-    margin-top: 10px;
-    border-radius: 100px;
-    width: 100px;
-    height: 100px;
-}
-aside p a {
+    margin-left: 30%;
+    width: 250px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    background-color: #ad7a7a;
+    height: 58rem;
+    margin-top: auto;
 }
+
 
 /* section */
 section {
-    width: 40%;
-    height: 880px;
-    margin-left: 10px;
-    background: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f4f4f4;
+    height: 58rem;
 }
 
 section h2 {
     color: blue;
+    font-size: 20px;
+    margin-bottom: 10px;
     margin-left: 10px;
-    margin-bottom: 2px;
-    font-weight: bold;
-    font-size: 15px;
 }
-
 section h3 {
     margin-left: 10px;
-    font-size: 15px;
 }
 
 section p{
@@ -68,57 +64,54 @@ section p{
 }
 
 .competence {
-    border: 2px solid red;
+    padding-top: 20px;
+    box-shadow: 1px 1px 1px 1px;
+    box-shadow: #f4f4f4;
+    margin-bottom: 10px;
+}
+.competence h2 {
+    margin-top: 5px;
 }
 
 .exp-professionalles {
-    border: 2px solid green;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    box-shadow: #f4f4f4;
 }
 
 .formation {
-    border: 2px solid magenta;
-    height: 200px;
-}
-
-form {
-    border: 2px solid mediumaquamarine;
-    height: 8%;
-}
-
-form label {
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    height: 15px;
-    margin-left: 10px;
-}
-
-form input {
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    height: 15px;
-    margin-left: 10px;
-}
-
-form textarea {
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    height: 40px;
-    margin-left: 10px;
-}
-
-form button{
-    width: 96%;
-    background-color: blue;
     margin-bottom: 10px;
-    margin-left: 10px;
-    color: white;
-    font-size: 15px;
-    margin-bottom: 5px;
+    box-shadow: 1px 1px 1px 1px;
+    box-shadow: #f4f4f4;
+}
+.form-container {
+    height: 100%;
+    box-shadow: 1px 1px 1px 1px;
+    box-shadow: #f4f4f4;
 }
 
+.form-container label {
+    margin-left: 10px;
+    width: 96%;
+}
+
+.form-container input {
+    margin-left: 10px;
+    width: 95%;
+}
+.form-container textarea {
+    margin-left: 10px;
+    width: 96%;
+}
+
+
+.form-container button {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 97%;
+    margin-left: 10px;
+}
 /* footer */
 footer {
     margin-top: 5px;
