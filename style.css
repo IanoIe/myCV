@@ -23,13 +23,10 @@ main {
 }
 
 aside { 
-    
     margin-left: 25%;
     width: 250px;
     display: flex;
     flex-direction: column;
-    height: 58rem;
-    margin-top: auto;
     background-color: white;
     box-shadow: 10px 10px 10px 10px gainsboro;
     border-radius: 1%;
@@ -81,7 +78,7 @@ section p{
     padding-top: 20px;
     margin-bottom: 10px;
     background-color: white;
-    box-shadow: 10px 10px 10px gainsboro;
+    box-shadow: 10px 10px 10px 10px gainsboro;
     border-radius: 2%;
 }
 
@@ -89,20 +86,20 @@ section p{
 .exp-professionalles {
     margin-bottom: 10px;
     background-color: white;
-    box-shadow: 10px 10px 10px gainsboro;
+    box-shadow: 10px 10px 10px 10px gainsboro;
     border-radius: 2%;
 }
 
 .formation {
     margin-bottom: 10px;
     background-color: white;
-    box-shadow: 10px 10px 10px gainsboro;
+    box-shadow: 10px 10px 10px 10px gainsboro;
     border-radius: 2%;
 }
 .form-container {
     height: 100%;
     background-color: white;
-    box-shadow: 10px 10px 10px gainsboro;
+    box-shadow: 10px 10px 10px 10px gainsboro;
     border-radius: 2%;
 }
 
@@ -140,15 +137,10 @@ footer {
     text-align: center;
 }
 
-
-@media screen and (max-width: 768px) {
-
+@media (max-width: 768px){
     aside {
-        background-color: aqua;
-    }
-
-    section {
+        width: 80%;
         background-color: red;
     }
-}
 
+}
