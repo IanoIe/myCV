@@ -18,25 +18,39 @@ header {
 main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 500px;
-    margin-top: 10px;
-    height: 90%;
-    background-color: gainsboro;
-    
+    padding: 10px;
+    gap: 10px;
 }
 
-aside {
-    margin-left: 30%;
+aside { 
+    
+    margin-left: 25%;
     width: 250px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #ad7a7a;
     height: 58rem;
     margin-top: auto;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px gainsboro;
+    border-radius: 1%;
+}
+
+aside img {
+    text-align: center;
+    border-radius: 100%;
+    display: block;
+    margin: 20px 50px;
+    width: 50%;
+}
+aside h2 {
+    margin-left: 10px;
+}
+
+aside address {
+    margin-left: 10px;
+}
+aside p{
+    margin-left: 10px;
 }
 
 
@@ -46,7 +60,7 @@ section {
     flex-direction: column;
     justify-content: center;
     background-color: #f4f4f4;
-    height: 58rem;
+    background-color: white;
 }
 
 section h2 {
@@ -65,29 +79,31 @@ section p{
 
 .competence {
     padding-top: 20px;
-    box-shadow: 1px 1px 1px 1px;
-    box-shadow: #f4f4f4;
     margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 10px gainsboro;
+    border-radius: 2%;
 }
-.competence h2 {
-    margin-top: 5px;
-}
+
 
 .exp-professionalles {
     margin-bottom: 10px;
-    box-shadow: 1px 1px 1px 1px;
-    box-shadow: #f4f4f4;
+    background-color: white;
+    box-shadow: 10px 10px 10px gainsboro;
+    border-radius: 2%;
 }
 
 .formation {
     margin-bottom: 10px;
-    box-shadow: 1px 1px 1px 1px;
-    box-shadow: #f4f4f4;
+    background-color: white;
+    box-shadow: 10px 10px 10px gainsboro;
+    border-radius: 2%;
 }
 .form-container {
     height: 100%;
-    box-shadow: 1px 1px 1px 1px;
-    box-shadow: #f4f4f4;
+    background-color: white;
+    box-shadow: 10px 10px 10px gainsboro;
+    border-radius: 2%;
 }
 
 .form-container label {
@@ -96,6 +112,7 @@ section p{
 }
 
 .form-container input {
+    height: 30px;
     margin-left: 10px;
     width: 95%;
 }
@@ -114,7 +131,7 @@ section p{
 }
 /* footer */
 footer {
-    margin-top: 5px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     background: blue;
@@ -123,4 +140,15 @@ footer {
     text-align: center;
 }
 
+
+@media screen and (max-width: 768px) {
+
+    aside {
+        background-color: aqua;
+    }
+
+    section {
+        background-color: red;
+    }
+}
 
